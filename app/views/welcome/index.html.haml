@@ -1,1 +1,18 @@
-%h1 Voila! This is the Placeholder!
+#banner
+	.banner_content
+		%h1 File Cabinet
+		%p A clone of Evernote.
+		%button= link_to "Enter", new_user_registration_path
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Organize
+				%p File cabinet is supposed to work similar to evernote. however this looks like a twitter app with a title and article. Evernote has a lot more functionality.
+
+#bottom_cta
+	.wrapper
+		%h2 Go Ahead!
+		%br
+		%button= link_to "Join Now", new_user_registration_path						
